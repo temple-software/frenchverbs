@@ -1,0 +1,54 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+/app/release/
+.externalNativeBuild
+.cxx
+local.properties
+
+# Local release signing
+keystore.properties
+*.jks
+*.keystore
+
+# Generated Android artifacts
+*.apk
+*.aab
+
+# All build output and Python caches
+app/build/
+build/
+__pycache__/
+*.pyc
+
+# Android Studio local device state
+.idea/deviceManager.xml
+
+
+# Kotlin local compiler state and additional private keystore formats
+.kotlin/
+*.p12
+*.pfx
+
+# Local pass execution logs
+/*.log
+
+# Local evidence, release packages, emulator state and IDE metadata
+/store-assets/
+/.idea/
+*.apks
+*.idsig
+*.aesgcm
+*.pem
+*.key
+.env
+.env.*

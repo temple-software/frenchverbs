@@ -1,0 +1,667 @@
+[
+  {
+    "verb": "être",
+    "source": "https://www.larousse.fr/conjugaison/francais/%C3%AAtre/4440",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "avoir",
+    "source": "https://www.larousse.fr/conjugaison/francais/avoir/749",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "aller",
+    "source": "https://www.larousse.fr/conjugaison/francais/aller/314",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "faire",
+    "source": "https://www.larousse.fr/conjugaison/francais/faire/4599",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "dire",
+    "source": "https://www.larousse.fr/conjugaison/francais/dire/3354",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "venir",
+    "source": "https://www.larousse.fr/conjugaison/francais/venir/9299",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "prendre",
+    "source": "https://www.larousse.fr/conjugaison/francais/prendre/7013",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "pouvoir",
+    "source": "https://www.larousse.fr/conjugaison/francais/pouvoir/6963",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "voir",
+    "source": "https://www.larousse.fr/conjugaison/francais/voir/9393",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "vouloir",
+    "source": "https://www.larousse.fr/conjugaison/francais/vouloir/9417",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "parler",
+    "source": "https://www.larousse.fr/conjugaison/francais/parler/6578",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "jouer",
+    "source": "https://www.larousse.fr/conjugaison/francais/jouer/5705",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "chanter",
+    "source": "https://www.larousse.fr/conjugaison/francais/chanter/1436",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "regarder",
+    "source": "https://www.larousse.fr/conjugaison/francais/regarder/7653",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "trouver",
+    "source": "https://www.larousse.fr/conjugaison/francais/trouver/9191",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "manger",
+    "source": "https://www.larousse.fr/conjugaison/francais/manger/5950",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "nager",
+    "source": "https://www.larousse.fr/conjugaison/francais/nager/6294",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "ranger",
+    "source": "https://www.larousse.fr/conjugaison/francais/ranger/7314",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "partager",
+    "source": "https://www.larousse.fr/conjugaison/francais/partager/6590",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "changer",
+    "source": "https://www.larousse.fr/conjugaison/francais/changer/1431",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "commencer",
+    "source": "https://www.larousse.fr/conjugaison/francais/commencer/1715",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "lancer",
+    "source": "https://www.larousse.fr/conjugaison/francais/lancer/5763",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "avancer",
+    "source": "https://www.larousse.fr/conjugaison/francais/avancer/725",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "placer",
+    "source": "https://www.larousse.fr/conjugaison/francais/placer/6822",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "tracer",
+    "source": "https://www.larousse.fr/conjugaison/francais/tracer/9050",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "nettoyer",
+    "source": "https://www.larousse.fr/conjugaison/francais/nettoyer/6325",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "essuyer",
+    "source": "https://www.larousse.fr/conjugaison/francais/essuyer/4363",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "appuyer",
+    "source": "https://www.larousse.fr/conjugaison/francais/appuyer/521",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "lever",
+    "source": "https://www.larousse.fr/conjugaison/francais/lever/5807",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "mener",
+    "source": "https://www.larousse.fr/conjugaison/francais/mener/6084",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "amener",
+    "source": "https://www.larousse.fr/conjugaison/francais/amener/359",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "emmener",
+    "source": "https://www.larousse.fr/conjugaison/francais/emmener/3830",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "promener",
+    "source": "https://www.larousse.fr/conjugaison/francais/promener/7110",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "préférer",
+    "source": "https://www.larousse.fr/conjugaison/francais/pr%C3%A9f%C3%A9rer/6998",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "répéter",
+    "source": "https://www.larousse.fr/conjugaison/francais/r%C3%A9p%C3%A9ter/7939",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "espérer",
+    "source": "https://www.larousse.fr/conjugaison/francais/esp%C3%A9rer/4345",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "compléter",
+    "source": "https://www.larousse.fr/conjugaison/francais/compl%C3%A9ter/1752",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "protéger",
+    "source": "https://www.larousse.fr/conjugaison/francais/prot%C3%A9ger/7141",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "appeler",
+    "source": "https://www.larousse.fr/conjugaison/francais/appeler/482",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "rappeler",
+    "source": "https://www.larousse.fr/conjugaison/francais/rappeler/7329",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "jeter",
+    "source": "https://www.larousse.fr/conjugaison/francais/jeter/5690",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "rejeter",
+    "source": "https://www.larousse.fr/conjugaison/francais/rejeter/7716",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "envoyer",
+    "source": "https://www.larousse.fr/conjugaison/francais/envoyer/4253",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "renvoyer",
+    "source": "https://www.larousse.fr/conjugaison/francais/renvoyer/7896",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "finir",
+    "source": "https://www.larousse.fr/conjugaison/francais/finir/4725",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "choisir",
+    "source": "https://www.larousse.fr/conjugaison/francais/choisir/1531",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "réussir",
+    "source": "https://www.larousse.fr/conjugaison/francais/r%C3%A9ussir/8141",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "grandir",
+    "source": "https://www.larousse.fr/conjugaison/francais/grandir/5133",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "réfléchir",
+    "source": "https://www.larousse.fr/conjugaison/francais/r%C3%A9fl%C3%A9chir/7620",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "remplir",
+    "source": "https://www.larousse.fr/conjugaison/francais/remplir/7818",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "nourrir",
+    "source": "https://www.larousse.fr/conjugaison/francais/nourrir/6368",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "partir",
+    "source": "https://www.larousse.fr/conjugaison/francais/partir/6596",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "sortir",
+    "source": "https://www.larousse.fr/conjugaison/francais/sortir/10909",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "dormir",
+    "source": "https://www.larousse.fr/conjugaison/francais/dormir/3461",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "sentir",
+    "source": "https://www.larousse.fr/conjugaison/francais/sentir/8435",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "servir",
+    "source": "https://www.larousse.fr/conjugaison/francais/servir/8455",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "mentir",
+    "source": "https://www.larousse.fr/conjugaison/francais/mentir/6090",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "mettre",
+    "source": "https://www.larousse.fr/conjugaison/francais/mettre/6126",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "permettre",
+    "source": "https://www.larousse.fr/conjugaison/francais/permettre/6710",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "remettre",
+    "source": "https://www.larousse.fr/conjugaison/francais/remettre/7789",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "promettre",
+    "source": "https://www.larousse.fr/conjugaison/francais/promettre/7113",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "transmettre",
+    "source": "https://www.larousse.fr/conjugaison/francais/transmettre/9097",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "connaître",
+    "source": "https://www.larousse.fr/conjugaison/francais/conna%C3%AEtre/1861",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "reconnaître",
+    "source": "https://www.larousse.fr/conjugaison/francais/reconna%C3%AEtre/7506",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "paraître",
+    "source": "https://www.larousse.fr/conjugaison/francais/para%C3%AEtre/6545",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "apparaître",
+    "source": "https://www.larousse.fr/conjugaison/francais/appara%C3%AEtre/468",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "écrire",
+    "source": "https://www.larousse.fr/conjugaison/francais/%C3%A9crire/3628",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "décrire",
+    "source": "https://www.larousse.fr/conjugaison/francais/d%C3%A9crire/2493",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "inscrire",
+    "source": "https://www.larousse.fr/conjugaison/francais/inscrire/5526",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "prescrire",
+    "source": "https://www.larousse.fr/conjugaison/francais/prescrire/7030",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "réécrire",
+    "source": "https://www.larousse.fr/conjugaison/francais/r%C3%A9%C3%A9crire/9914",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "lire",
+    "source": "https://www.larousse.fr/conjugaison/francais/lire/5847",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "relire",
+    "source": "https://www.larousse.fr/conjugaison/francais/relire/7751",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "élire",
+    "source": "https://www.larousse.fr/conjugaison/francais/%C3%A9lire/3725",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "réélire",
+    "source": "https://www.larousse.fr/conjugaison/francais/r%C3%A9%C3%A9lire/7589",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "ouvrir",
+    "source": "https://www.larousse.fr/conjugaison/francais/ouvrir/6487",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "offrir",
+    "source": "https://www.larousse.fr/conjugaison/francais/offrir/6420",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "couvrir",
+    "source": "https://www.larousse.fr/conjugaison/francais/couvrir/2078",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "souffrir",
+    "source": "https://www.larousse.fr/conjugaison/francais/souffrir/8565",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "cueillir",
+    "source": "https://www.larousse.fr/conjugaison/francais/cueillir/2175",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "recevoir",
+    "source": "https://www.larousse.fr/conjugaison/francais/recevoir/7462",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "apercevoir",
+    "source": "https://www.larousse.fr/conjugaison/francais/apercevoir/453",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "concevoir",
+    "source": "https://www.larousse.fr/conjugaison/francais/concevoir/1797",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "décevoir",
+    "source": "https://www.larousse.fr/conjugaison/francais/d%C3%A9cevoir/2364",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "percevoir",
+    "source": "https://www.larousse.fr/conjugaison/francais/percevoir/6684",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "conduire",
+    "source": "https://www.larousse.fr/conjugaison/francais/conduire/1818",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "construire",
+    "source": "https://www.larousse.fr/conjugaison/francais/construire/1894",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "produire",
+    "source": "https://www.larousse.fr/conjugaison/francais/produire/7090",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "traduire",
+    "source": "https://www.larousse.fr/conjugaison/francais/traduire/9052",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "réduire",
+    "source": "https://www.larousse.fr/conjugaison/francais/r%C3%A9duire/7581",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "peindre",
+    "source": "https://www.larousse.fr/conjugaison/francais/peindre/6645",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "craindre",
+    "source": "https://www.larousse.fr/conjugaison/francais/craindre/2088",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "joindre",
+    "source": "https://www.larousse.fr/conjugaison/francais/joindre/5695",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "atteindre",
+    "source": "https://www.larousse.fr/conjugaison/francais/atteindre/653",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  },
+  {
+    "verb": "éteindre",
+    "source": "https://www.larousse.fr/conjugaison/francais/%C3%A9teindre/4405",
+    "checked": 36,
+    "method": "exact indicative tense/person comparison; normalized apostrophe, spacing and gender notation",
+    "issues": []
+  }
+]

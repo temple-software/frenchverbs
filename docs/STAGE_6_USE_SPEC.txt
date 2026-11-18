@@ -1,0 +1,132 @@
+FRENCH VERBS — STAGE 6: USE / UTILISER
+Pass 36 initial implementation — 9 November 2026
+Status: awaiting owner visual approval; no full Stage 6 regression authorised.
+
+SESSION AND SELECTION
+Use sessions are independent of active Learn, Repeat and Conjugate sessions.
+UseSessions reuses LearningSequence eligibility and the verified OfflineDictionary.
+Selected families are expanded to all verified members, selected important verbs
+are explicit, and only selected tenses are included. Duplicate verb/tense pairs
+are removed. At least ten available: shuffle and take ten without replacement.
+Fewer: repeated shuffled cycles fill ten. A final shuffle determines question order.
+No saved preference is edited.
+
+PERSONS AND GENDER
+Start with persons 0..5, add four different random persons, then shuffle. Every
+person appears once or twice; exactly four appear twice. il/elle and ils/elles
+are independent binary choices within their respective person categories.
+First/second persons use masculine agreement; nous/vous are plural. For compound
+être forms, Paul identifies masculine je/tu, Paul is included in nous, and Paul
+et Hugo identifies plural vous. Female third persons use feminine participles.
+This avoids an ambiguous hidden gender requirement. Singular polite vous and
+female first/second-person speakers are deliberately outside this initial pass.
+
+OFFLINE SENTENCES
+Reuse SentenceBank's complete verb-bound situations with explicit tense/person/
+gender/number masks. Use only situations without their own competing prefix.
+No unrelated object or action word pools are combined. The prefix is a tense
+context: D’habitude; À cette époque; L’année prochaine; La semaine dernière;
+Dans ce récit; Quand Léa est arrivée. The selected French tense is also in the
+menu bar. Questions use est-ce que / est-ce qu’ with proper elision; passé simple
+remains narrative statements. Alternatives avoid already-used exact sentences
+and complements where possible, and deprioritise parc/livre/vélo/billes.
+The reusable bank supplies varied everyday themes and several complements per
+verb. There is no English translation or network/AI dependency.
+UseQuestion persists the exact French prefix, form and suffix as well as the
+verb, tense, person and gender, so restoration cannot choose new wording.
+
+COMPLETE ANSWERS AND INPUT REUSE
+Use requires all letters of the complete dictionary form, including compound
+auxiliary and participle. Existing curated participle agreement tables expand
+notation. Spaces/apostrophes remain fixed display characters, not keys.
+Box count and keypad union consider all six persons and both supported gender
+realisations, ensuring a feminine/plural form cannot exceed capacity.
+Use adapts its question to the existing QuizQuestion/QuizState/QuizActions engine:
+only its selected person is editable; the other five rows are inactive/locked.
+Additional alternative full forms contribute only to union/capacity/common-prefix
+calculations. There is no shared active Conjugate state and no second letter-entry
+or hint engine. The authoritative entry length remains the editing cursor.
+
+KEYPAD AND EDITING
+Existing LetterKeypad and LetterBox components are reused. Unique dictionary
+letters, accent distinctions, seéioza priority fillers, alphabetical fallback,
+three-column extra rows, dynamic Enter placement and Clear are retained.
+Touching an earlier box truncates from that position; padding cannot create gaps.
+Clear and editing preserve protected orange hints. Conjugate's defaults are
+unchanged; Use can request 40dp minimum key height on short landscape displays.
+Other layouts use the existing 48dp minimum. Font scaling remains enabled.
+
+VALIDATION, TIMING AND SCORING
+Only Enter validates. Empty or hint-only submissions are no-ops, not errors.
+Wrong: 650ms red feedback, all input disabled, no question advance, then clear
+editable letters. First mistake gives no hint; second gives common prefix plus
+one letter; later mistakes reveal one more. Fully revealed answers complete.
+Correct: configurable 800ms green success, input disabled, then advance once.
+The same success delay applies after automatic hint completion. Hints retain
+the existing orange appearance while the other completed boxes turn green.
+There is one lifecycle-bound frame clock for either feedback colour. Remaining
+milliseconds are saved; background time is paused rather than consumed.
+Ten centred gradient circles use neutral cream, green for correct-first-attempt,
+and persistent red after any mistake. Gold outline identifies the current item.
+This follows the existing Nice Education circle styling, with Pass 36's explicit
+persistent-red rule taking precedence over the older application's orange phase.
+Outcomes are 0 unanswered, 1 correct first attempt, -1 retry required. First-attempt
+score counts 1 values independently of eventual completion.
+
+LAYOUT AND NAVIGATION
+Blue bar: Back, centred French infinitive and tense, balancing right spacer.
+Title adapts between 22sp and 16sp, with a two-line fallback. Circles below.
+Portrait: connected wrapping French sentence/boxes, then centred green keypad.
+Landscape: sentence panel left, compact centred keypad group right. Insets protect
+system bars. Scroll fallback preserves controls at short heights or large text.
+Back and Android Back return to Activity Homepage. No other activity navigation
+changes. Question ten ends in temporary Finished/Terminé plus Home/Accueil;
+all ten questions/outcomes and first-attempt score remain available in state.
+No Results design is introduced.
+
+RESTORATION
+SavedStateHandle contains the encoded question list, index, entered letters,
+hints, mistake counts, locked state, pending hint/completion, remaining red/green
+time, outcomes, per-question mistake totals and revealed prefixes, and running flag. Generation occurs only on explicit activity
+entry, never composition, next question, rotation or lifecycle resume.
+
+REVIEW LIMITATIONS
+Tense context reinforces the displayed tense but does not claim that an isolated
+sentence makes all alternative French tenses impossible. Automated exhaustive
+checks verify structural/dictionary coverage; they are not a substitute for an
+independent French teacher's editorial review. Exceptionally long forms, short
+landscape heights or enlarged fonts may scroll. Initial scoring circles use a
+gold active outline without the older app's moving frame animation.
+
+FOLLOW-UP — 9 November 2026 (owner-requested refinements)
+This section supersedes the initial-pass descriptions where they differ.
+- Toolbar/Android Back during an unfinished quiz asks for confirmation in the
+  current interface language. Feedback pauses while the prompt is open and
+  resumes on Continue. Results can return Home without that prompt.
+- Use's incomplete extended keypad row contains Clear/Effacer; Enter/Valider is
+  below. Conjugate retains its original arrangement via the shared default.
+- A visible space separates the last answer box from the following word.
+- Each question saves an inclusive random capacity from its actual letter count
+  through the longest conjugation count. Rotation/restoration cannot redraw it.
+  Previously saved seven-field questions retain their original maximum capacity.
+- Results displays five large star positions using the existing ten-question
+  policy: 10 first attempts = 5 stars; 8–9 = 4; 7 = 3; 6 = 2; 0–5 = 1.
+  After a generous gap, each retry question shows a red cross and the correct
+  pronoun + full conjugation. Grey bracketed French tense appears only if more
+  than one tense was selected at session start (saved independently of sampling).
+  Home/Accueil remains below the list. Results is scrollable when necessary.
+
+
+PASS 37 — SENTENCE ENTRY REDESIGN (pending owner visual approval)
+Rollback: E:/CodexResults/FrenchVerbs/checkpoints/pre_pass37/pre_pass37_source.zip
+The verified pre-change snapshot and manifest must remain available until explicit owner approval. Do not roll back automatically.
+A white rounded sentence panel renders the current entry directly from the existing Use input state. Centred answer boxes sit immediately beneath it; landscape puts this group left and keypad right. Dictionary punctuation is derived at letter boundaries, never stored as another answer.
+The draw-only caret uses a reserved thin space, 500 ms phases with a short fade, and no layout changes during blinking. It is hidden during red/green feedback; reduced animator motion or touch exploration uses a steady caret. USE_CURSOR_PHASE_MILLIS is the timing configuration.
+Key clicks: use_key_click.wav is an exact copy of TellingTime app/src/main/res/raw/learn_digital_click.wav (3572 bytes; SHA256 76b269ecd855d3e726712d49e8095a6b4754fd0a75ea1ce3020d5b858c754a87). Existing local/generated Nice Education sound; original project inspected read-only. SoundPool preload, sonification attributes, four streams and 0.32 gain match that app. Audio only follows accepted letter actions; disabled, rejected, full, restoration and cosmetic changes are silent. Honor ringer, system volume and sound-effects preference; unload on destination disposal.
+Generation, random capacity, hints, scores, results, navigation and feedback timers are unchanged. Full Stage 6 regression remains deferred until approval.
+
+PASS 38 - pending owner review (Pass 37 design accepted)
+Verified checkpoint: E:/CodexResults/FrenchVerbs/checkpoints/pre_pass38; pre_pass37 preserved.
+New questions: capacity random inclusive [answer letter count, min(10,longest)] when answer <=10, otherwise [answer,longest]. Existing encoded capacities remain unchanged for session compatibility; no rerandomisation, punctuation not counted.
+Audio preloads at navigation-root composition in an Activity ViewModel, survives rotation, activates only in Use, stops on background/exit and releases on Activity ViewModel clearing. Letter keypad waits for ready; input and click remain synchronous action callbacks with no late queued clicks. SoundPool 8 voices, gain .32, system settings honored. Original local 32ms PCM click replaces the earlier TellingTime asset; deterministic filtered noise with damped 950/1550Hz attack, no external sample. Waveform inspection rejected a too-bright prototype. Subjective loudspeaker listening remains owner review.
+Back pause retains existing answer/timers but no longer applies disabled-button colour/bars merely for a dialog. Modal dialog blocks background touch; callback guards still reject paused input. Feedback-driven disabled appearance remains unchanged. No Conjugate component defaults changed.

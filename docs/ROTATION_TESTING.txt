@@ -1,0 +1,38 @@
+Rotation test hygiene (Pass 09)
+
+The production manifest uses fullUser, and Compose reads live configuration/constraints.
+Do not add app-side rotation locks or write system preferences from production code.
+
+Every instrumentation class that sets requestedOrientation or UiAutomation.setRotation
+must use PreserveRotationRule as the OUTERMOST RuleChain around ActivityScenario/Compose.
+The Activity is closed first, then UI automation is unfrozen and original system settings
+are restored, including on assertion failure. A pre-existing user lock is preserved.
+
+Run selected tests through scripts/run_focused_android_tests.py:
+python scripts/run_focused_android_tests.py --adb E:/AndroidSDK/platform-tools/adb.exe --classes com.templesoftware.frenchverbs.Stage2Pass09Test --log app/build/pass09/focused-tests.log
+
+The host runner restores settings on a failed/aborted instrumentation process and stops
+a surviving test Activity on failure to release its temporary requestedOrientation.
+Use --check-failure-cleanup with --log to verify the host finally path independently.
+No finally block can execute after host termination, power loss, or emulator disconnect;
+inspect settings before handing the emulator back if a run is forcibly killed.
+
+For real rotation use the emulator's native Rotate control (adb emu rotate), which
+updates physical pose and sensor values together. Avoid ad-hoc emu sensor set acceleration
+commands, persistent wm locks, and UiAutomation freezes outside guarded tests.
+Observe dumpsys window display rotation AND the app's current configuration/rendered UI.
+Auto-rotation is accelerometer_rotation=1 / USER_ROTATION_FREE. user_rotation alone is
+only the remembered locked angle and does not mean the display is locked.
+
+Production must respect the user's rotation preference. Enabling auto-rotation for
+owner inspection is an explicit emulator setup step, never application behaviour.
+Pass 09 owner handoff: automatic rotation enabled, About in portrait.
+
+Emulator host recovery:
+Pixel_10a showed missing Android window/activity services and saved host graphics/hang
+crash evidence. Its AVD now uses software graphics and cold boot. For an explicit
+no-snapshot-load/no-snapshot-save launch use scripts/start_frenchverbs_emulator.ps1.
+This does not wipe installed apps/data or alter Android auto-rotation preference.
+The original AVD config is saved under app/build/pass09/avd-config-before.ini.
+Cold boot/software graphics are a tested mitigation, not proof that all historical
+rotation failures had the same cause. Preserve logs if host/Android services fail again.

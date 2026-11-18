@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <activity android:name=".ConjugateResultsPreviewActivity" android:exported="true" android:screenOrientation="fullUser" android:label="Conjuguer Results preview" />
+        <!-- Debug-only, explicit launch: never edits the owner's saved selections. -->
+        <activity android:name=".ConjugateSelectionPreviewActivity" android:exported="true" android:screenOrientation="fullUser" android:label="Conjugate selection preview" />
+        <activity android:name=".ConjugateInputPreviewActivity" android:exported="true" android:screenOrientation="fullUser" android:label="Conjugate input preview" />
+        <activity android:name=".UsePreviewActivity" android:exported="true" android:screenOrientation="fullUser" android:label="Use preview" />
+    </application>
+</manifest>
+
