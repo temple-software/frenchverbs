@@ -1,0 +1,11 @@
+{
+  "source_zip": "FrenchVerbs-final-bevel-icon.zip",
+  "master_sha256": "08e38a98c4700dce702c586f0e70b270df1ad1e77e6a2ea7c460b99a9ae05a19",
+  "adaptive_artwork_dp": 56,
+  "adaptive_canvas_dp": 108,
+  "legacy_artwork_dp": 37.333333333333336,
+  "legacy_canvas_dp": 48,
+  "splash_artwork_dp": 149.33333333333334,
+  "splash_canvas_dp": 288,
+  "play_background": "#0739A5"
+}

@@ -53,3 +53,9 @@ PolyForm Noncommercial license is preserved in `LICENSE`.
 Guide: https://www.nice-education.com/french-verbs/
 Privacy: https://www.nice-education.com/french-verbs/privacy/
 More apps: https://www.nice-education.com/
+
+## Launcher artwork
+
+The approved K4/B Family Bevel icon is documented in
+[design/launcher-k4/README.md](design/launcher-k4/README.md), including transparent
+Android exports and the separate 512px Google Play image.
